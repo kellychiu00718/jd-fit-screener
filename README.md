@@ -64,7 +64,7 @@ examples/                     fictional profile, postings and sample output
 - The result is only as good as your profile. If you list a skill you do not have, the skill will score you as if you do.
 
 ## Results
-Reading a JD and finishing my resume used to take several hours. Now it takes under 30 minutes. This is my own use, not a measured study.
+Reading a JD and finishing my resume used to take several hours. Now it takes under 30 minutes. I timed it myself.
 
 The skill makes that possible through the steps listed in "What it does". It tells me what matches, what is missing and which gap is biggest, so I know which experience to put first.
 
