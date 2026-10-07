@@ -1,0 +1,14 @@
+Title: Senior Data Engineer
+Company: Sample Cloud Inc. (fictional)
+Location: Seoul
+Posted: 2026-09-20
+
+What you will do
+- Own the data platform: Spark pipelines, Airflow, Kafka.
+- Be on call for production incidents.
+- Mentor junior engineers.
+
+What we look for
+- 7+ years of experience in data engineering.
+- Strong Scala or Java.
+- Experience running a production data platform at scale.

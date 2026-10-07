@@ -1,0 +1,15 @@
+Title: Customer Insight Analyst
+Company: Demo Marketplace Ltd. (fictional)
+Location: Seoul (hybrid)
+Posted: not stated
+
+Responsibilities
+- Analyze customer reviews and delivery data to find why some orders get low ratings.
+- Present findings to the operations team and recommend what to change.
+- Maintain a small set of dashboards.
+
+Requirements
+- SQL and a BI tool (Tableau or Power BI).
+- Python is preferred.
+- 1 to 3 years of experience; strong new graduates considered.
+- Fluent Korean required.

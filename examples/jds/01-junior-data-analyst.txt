@@ -1,0 +1,15 @@
+Title: Junior Data Analyst
+Company: Example Retail Co. (fictional)
+Location: Seoul
+Posted: 2026-10-01
+
+What you will do
+- Write SQL queries to pull order and customer data for weekly reporting.
+- Build and maintain dashboards in Tableau for the merchandising team.
+- Run simple analyses (for example A/B test readouts) and explain the result to non-technical stakeholders.
+
+What we look for
+- 0 to 2 years of experience in analytics.
+- SQL required; Python or R is a plus.
+- Clear written English. Korean is a plus.
+- Visa sponsorship is available for the right candidate.
