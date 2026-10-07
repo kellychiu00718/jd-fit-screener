@@ -55,7 +55,7 @@ examples/                     fictional profile, postings and sample output
 I took the scoring logic from my own job-matching tool and turned it into a skill anyone can use: the rubric, the profile template, the rules about evidence and gates, and the examples. I used Claude Code to help write the skill files and the script. It has not been tested by other users yet.
 
 ## Origin
-Distilled from the scoring logic of my own daily job-matching tool, [korea-daily-job-shortlist](https://github.com/kellychiu00718/korea-daily-job-shortlist), which collects postings from Korean job boards. This skill keeps the part that is useful to anyone and drops the scrapers, API keys and scheduling.
+Distilled from the scoring logic of my own daily job-matching tool, [korea-job-matcher](https://github.com/kellychiu00718/korea-job-matcher), which collects postings from Korean job boards. This skill keeps the part that is useful to anyone and drops the scrapers, API keys and scheduling.
 
 ## License
 MIT. See `LICENSE`.
