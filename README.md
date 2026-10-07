@@ -4,7 +4,7 @@
 
 Give it a profile and a pile of postings. It returns a short ranked list with the reason for each score, the biggest gap, and which postings you should not spend time on.
 
-## What it helps with
+## Problem
 - **Titles lie.** The same work appears as "Solutions Consultant", "Customer Success" or "Business Analyst". The skill compares the responsibilities in the posting with what you have done.
 - **Too many postings, too little time.** It merges duplicates, drops the clear mismatches, and keeps a shortlist (10 by default) for you to read.
 - **Preference should not look like qualification.** Fit is scored from the posting and your profile. Freshness and your company preferences only order postings that fit about equally.
@@ -50,6 +50,13 @@ examples/                     fictional profile, postings and sample output
 ## Limits
 - Scores come from a language model's judgement against a written rubric. Compare it with your own view on five or six postings you already know before you rely on it.
 - The result is only as good as your profile. If you list a skill you do not have, the skill will score you as if you do.
+
+## Results
+Published on GitHub. Nobody else has used it yet, so there are no usage results to report.
+
+## Challenges & learnings
+- Separating fit from priority took the most thought. My first design added company preference to the score, which made a preferred employer look like a better skill match.
+- Removing the scrapers and API keys from my own tool left the part that other people can actually use: the judgment logic.
 
 ## About this project
 I took the scoring logic from my own job-matching tool and turned it into a skill anyone can use: the rubric, the profile template, the rules about evidence and gates, and the examples. I used Claude Code to help write the skill files and the script. It has not been tested by other users yet.
