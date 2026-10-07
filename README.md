@@ -4,11 +4,23 @@
 
 Give it a profile and a pile of postings. It returns a short ranked list with the reason for each score, the biggest gap, and which postings you should not spend time on.
 
-## Problem
-- **Titles lie.** The same work appears as "Solutions Consultant", "Customer Success" or "Business Analyst". The skill compares the responsibilities in the posting with what you have done.
-- **Too many postings, too little time.** It merges duplicates, drops the clear mismatches, and keeps a shortlist (10 by default) for you to read.
-- **Preference should not look like qualification.** Fit is scored from the posting and your profile. Freshness and your company preferences only order postings that fit about equally.
-- **No guessing.** Every score cites one line from the posting and one from your profile. Missing information is marked "not stated", not filled in.
+## Background
+I apply to many roles at once. For each one I had to read the JD, compare it with my experience, and rewrite my resume. That took several hours per posting.
+
+Job titles did not help. The same work appears as "Solutions Consultant", "Customer Success" or "Business Analyst". I also noticed that liking a company can quietly look like a better skill match.
+
+I wanted a systematic way to judge how well my experience fits a position. So I built this skill.
+
+## What it does
+- Reads a posting from pasted text, a file or a public URL. It judges the real responsibilities and requirements, not the title.
+- Compares them with your profile. Every profile entry needs evidence.
+- Scores the fit from 0 to 100, with one line quoted from the posting and one from your profile. Missing information is marked "not stated", not filled in.
+- Checks hard gates: location, work authorization, language and required experience. Each is pass, fail or unknown.
+- Names the biggest gap for each posting.
+- Merges duplicate postings, and prefilters long lists by keyword.
+- Orders postings of similar fit by freshness and your preferences. This never changes the score.
+- For the top three, shows what matches, what is missing, and one question to ask the employer.
+- Lists the postings it dropped, with the reason.
 
 ## Install
 Claude Code reads skills from `~/.claude/skills/`.
@@ -52,7 +64,11 @@ examples/                     fictional profile, postings and sample output
 - The result is only as good as your profile. If you list a skill you do not have, the skill will score you as if you do.
 
 ## Results
-Published on GitHub. Nobody else has used it yet, so there are no usage results to report.
+Reading a JD and finishing my resume used to take several hours. Now it takes under 30 minutes. This is my own use, not a measured study.
+
+The skill makes that possible through the steps listed in "What it does". It tells me what matches, what is missing and which gap is biggest, so I know which experience to put first.
+
+Nobody else has used it yet.
 
 ## Challenges & learnings
 - Separating fit from priority took the most thought. My first design added company preference to the score, which made a preferred employer look like a better skill match.
