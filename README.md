@@ -51,6 +51,9 @@ examples/                     fictional profile, postings and sample output
 - Scores come from a language model's judgement against a written rubric. Compare it with your own view on five or six postings you already know before you rely on it.
 - The result is only as good as your profile. If you list a skill you do not have, the skill will score you as if you do.
 
+## About this project
+I took the scoring logic from my own job-matching tool and turned it into a skill anyone can use: the rubric, the profile template, the rules about evidence and gates, and the examples. I used Claude Code to help write the skill files and the script. It has not been tested by other users yet.
+
 ## Origin
 Distilled from the scoring logic of my own daily job-matching tool, [korea-daily-job-shortlist](https://github.com/kellychiu00718/korea-daily-job-shortlist), which collects postings from Korean job boards. This skill keeps the part that is useful to anyone and drops the scrapers, API keys and scheduling.
 
